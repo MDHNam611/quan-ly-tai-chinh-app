@@ -25,19 +25,68 @@ Dự án được chia thành 2 module độc lập để dễ dàng bảo trì 
 ---
 
 ## Hình ảnh thực tế (Screenshots)
-#Đăng nhập
-<img width="451" height="1037" alt="image" src="https://github.com/user-attachments/assets/fbd4ba8c-ecb6-4bcc-a63a-223419ae0f5c" />
 
-
-
+### 1. Đăng nhập & Xác thực (Authentication)
 <div align="center">
-  <img src="[link-anh-1]" width="250"/>
-  <img src="[link-anh-2]" width="250"/>
-  <img src="[link-anh-3]" width="250"/>
+  <img src="https://github.com/user-attachments/assets/38755035-0a23-4c49-9a28-9d965718963a" width="200" alt="Đăng nhập" />
+  <img src="https://github.com/user-attachments/assets/5d2e230d-3cf4-45a1-a942-c011f3192925" width="200" alt="Đăng ký" />
+  <img src="https://github.com/user-attachments/assets/907dbd81-6a35-4cdc-a3fa-6e2b53902a9e" width="200" alt="Đăng nhập Google" />
+  <img src="https://github.com/user-attachments/assets/c12fd4ba-21e3-4f6f-b35b-cc06ab4bd6f1" width="200" alt="Profile Menu" />
+</div>
+<div align="center">
+  <i>Đăng nhập thường | Đăng ký | Đăng nhập Google Sign-In | Menu Cá nhân & Đồng bộ đám mây</i>
+</div>
+
+<br>
+
+### 2. Tổng quan & Thống kê (Overview and Dashboard)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/dd6adcdd-256e-486d-9f9d-0e305dc96767" width="250" alt="Biểu đồ chi phí" />
+  <img src="https://github.com/user-attachments/assets/e787f05f-0074-402c-acd0-66c6f71b8c09" width="250" alt="Biểu đồ Thu nhập" />
+  <img src="https://github.com/user-attachments/assets/79bf4c09-1c6c-41dd-a8b7-3e8cc174840b" width="250" alt="Chọn kỳ thống kê" />
+</div>
+<div align="center">
+  <i>Biểu đồ Chi phí theo tháng | Biểu đồ Thu nhập | Trình chọn thời gian (Tuần/Tháng/Năm)</i>
+</div>
+
+<br>
+
+### 3. Quản lý Tài khoản & Ví (Accounts)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/bf226b0b-fbce-49fc-aa60-3805d9249c9c" width="250" alt="Danh sách Ví" />
+  <img src="https://github.com/user-attachments/assets/f0196fff-3004-4f43-a879-662f7c68fa87" width="250" alt="Tùy chọn Ví" />
+  <img src="https://github.com/user-attachments/assets/3f1df8ef-21f4-4059-9429-fe3cb8099e86" width="250" alt="Chuyển khoản" />
+</div>
+<div align="center">
+  <i>Danh sách Ví hiện có | Menu Thao tác (Rút/Nạp/Chỉnh sửa) | Giao diện Chuyển khoản nội bộ</i>
+</div>
+
+<br>
+
+### 4. Danh mục Thu/Chi (Categories)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/3005c7b2-5996-4145-af24-86c4d32a6005" width="250" alt="Biểu đồ Danh mục" />
+  <img src="https://github.com/user-attachments/assets/f1c0e4f5-4e93-4cee-bd3a-ca4d4a56e674" width="250" alt="Tùy chỉnh Icon" />
+  <img src="https://github.com/user-attachments/assets/554459fd-71bb-44d9-8444-837eaee0496b" width="250" alt="Thêm danh mục" />
+</div>
+<div align="center">
+  <i>Biểu đồ Tỷ trọng Chi tiêu | Trình chọn Biểu tượng & Màu sắc động | Thêm Danh mục phân nhóm</i>
+</div>
+
+<br>
+
+### 5. Quản lý Giao dịch (Transactions)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/05994261-cc2b-4498-b693-c66bb10a22d1" width="250" alt="Lịch sử giao dịch" />
+  <img src="https://github.com/user-attachments/assets/c2e876ec-a593-4ab2-89c0-06b78039b3dc" width="250" alt="Thêm Giao dịch" />
+  <img src="https://github.com/user-attachments/assets/4eb03eed-962c-488a-962b-833ac522a808" width="250" alt="Bộ lọc Tìm kiếm" />
+</div>
+<div align="center">
+  <i>Lịch sử Giao dịch theo ngày | Form Nhập liệu trực quan | Bộ lọc nâng cao (Đa điều kiện)</i>
 </div>
 
 ---
 
-## Thông tin tác giả
+## 👨‍💻 Thông tin tác giả
 * **Nhà phát triển:** Mai Đức Hoàng Nam
 * **Vai trò:** Fullstack Mobile Developer (Tự xây dựng từ A-Z cả Frontend lẫn Backend).
