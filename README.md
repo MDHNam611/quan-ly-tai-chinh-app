@@ -3,8 +3,13 @@
 ![Flutter](https://img.shields.io/badge/Frontend-Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Backend-Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/Database-MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Production-success?style=for-the-badge)
 
 Một giải pháp toàn diện giúp theo dõi, quản lý luồng thu chi cá nhân với trải nghiệm liền mạch trên thiết bị di động. Ứng dụng được thiết kế theo kiến trúc Offline-First, kết hợp tính năng đồng bộ đám mây (Cloud Sync) để đảm bảo an toàn dữ liệu.
+
+🔥 **[BẤM VÀO ĐÂY ĐỂ TẢI APP (APK) VÀ TRẢI NGHIỆM THỰC TẾ](https://drive.google.com/drive/folders/1uX3f1ohw20olG5HzCIzDcJeydovqityj?usp=sharing)** 🔥
+
+---
 
 ## 🔗 Các thành phần hệ thống (Repositories)
 Dự án được chia thành 2 module độc lập để dễ dàng bảo trì và mở rộng:
@@ -14,14 +19,14 @@ Dự án được chia thành 2 module độc lập để dễ dàng bảo trì 
 
 ---
 
-## ✨ Tính năng nổi bật
+## ✨ Tính năng nổi bật & Kiến trúc Kỹ thuật
 
 * **Kiến trúc Offline-First:** Sử dụng `SQLite` lưu trữ cục bộ, cho phép người dùng ghi chép giao dịch ngay cả khi không có kết nối mạng.
-* **Đồng bộ Đám mây (Cloud Sync):** Xử lý luồng PUSH/PULL dữ liệu giữa SQLite và MongoDB, bảo toàn dữ liệu khi người dùng đổi thiết bị.
+* **Đồng bộ Đám mây (Cloud Sync):** Xử lý luồng PUSH/PULL dữ liệu giữa SQLite và MongoDB Atlas (Được triển khai trên Render Server), bảo toàn dữ liệu khi người dùng đổi thiết bị.
 * **Xác thực bảo mật đa lớp:** * Xác thực truyền thống với `JWT Token`.
   * Đăng nhập một chạm với **Google Sign-In (OAuth 2.0 / Firebase)**.
   * Khôi phục mật khẩu an toàn qua mã OTP tự động gửi về Email.
-* **Quản lý Thu Chi (CRUD):** Thêm, sửa, xóa, thống kê phân loại giao dịch (Income/Expense) theo thời gian thực.
+* **Tối ưu hóa UX/UI Thực chiến:** Tự động chặn lỗi nhập liệu, khóa các luồng nạp/rút tiền, và giới hạn hiển thị để chống vỡ giao diện với các con số cực lớn.
 
 ---
 
@@ -104,4 +109,5 @@ Dự án được chia thành 2 module độc lập để dễ dàng bảo trì 
 
 ## 👨‍💻 Thông tin tác giả
 * **Nhà phát triển:** Mai Đức Hoàng Nam
-* **Vai trò:** Fullstack Mobile Developer (Tự xây dựng từ A-Z cả Frontend lẫn Backend).
+* **Sinh viên năm 4:** Ngành Công nghệ Thông tin - HUTECH (Chuyên ngành Công nghệ Phần mềm)
+* **Vai trò:** Fullstack Mobile Developer (Xây dựng trọn bộ giải pháp từ Mobile App đến RESTful API & Cloud Database).
